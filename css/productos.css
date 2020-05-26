@@ -1,0 +1,475 @@
+/* HOJA DE ESTILOS PRINCIPAL */
+
+/* FUENTES ***************************************************************************************************************************************************/
+/* Light */
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url("Roboto_Condensed/RobotoCondensed-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url("Roboto_Condensed/RobotoCondensed-LightItalic.ttf") format('truetype');
+}
+
+/* Normal */
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("Roboto_Condensed/RobotoCondensed-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url("Roboto_Condensed/RobotoCondensed-Italic.ttf") format('truetype');
+}
+
+/* Bold */
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url("Roboto_Condensed/RobotoCondensed-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url("Roboto_Condensed/RobotoCondensed-BoldItalic.ttf") format('truetype');
+}
+/* FUENTES ***************************************************************************************************************************************************/
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    font-family: 'Roboto Condensed', Verdana, Geneva, sans-serif;
+}
+
+/* CAPAS */
+header{
+    float: left;
+    width: 100%;
+}
+
+#portada{
+    float:right;
+    width: 100%;
+    background:#252850;
+    color: white;
+    height: 20em;
+    position: relative;
+    margin: 0 auto;
+
+
+}
+#portada_foto {
+    position: relative;
+    width: 81em;
+    margin: 0 auto;
+    height: 1.7em;
+    text-align: center;
+
+}
+
+#portada_foto img {
+
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 19.70em;
+}
+
+nav{
+    float: left;
+    width: 100%;
+    background: #252850;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 8.10em;
+}
+
+
+#enlaces{
+    width: 81em;
+    margin: 0 auto;
+}
+
+
+.links{
+    float:left;
+    width:20.18em;
+    height: 4em;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color:white;
+    font-size: 2em;
+}
+
+.links:hover{
+    height: 4em;
+    border-bottom: solid 0.15em #777777;
+    margin-bottom: 0.1em;
+    background: white;
+    color: black;
+}
+
+main{
+    float: left;
+    width: 100%;
+    background: #252850;
+    height: 45em;
+    
+}
+
+#central{
+    position: relative;
+    width: 81em;
+    margin: 0 auto;
+}
+
+#primario{
+    background-color: midnightblue;
+    height: 3em;
+    padding-top: 0.5em;
+    text-align: center;
+    color: transparent;
+    margin: auto;
+    font-size: 30px;
+    -webkit-text-stroke:1.5px white;
+
+
+
+}
+
+#primario:hover{
+    background: black;
+    color: black;
+}
+
+aside{
+    float: left;
+    width: 40.10em;
+    height: 39.66em;
+    background: black;
+  
+   
+}
+
+
+#imagenes img{
+    width: 40.10em;
+    height: 20.5em;
+    background: black;
+   
+}
+
+article{
+    float: right;
+    background:black;
+    text-align: center;
+    padding-top: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    height: 25.5em;
+    color:white;
+    width: 40.90em
+
+}
+
+#texto{
+    float: left;
+    width: 27.32em;
+    height: 15.5em;
+    text-align: left;
+    font-size: 1.50em;
+    background: black;
+    position: relative;
+    font-family:underline;
+    opacity: 45%
+   
+}
+
+#texto:hover{
+    background: white;
+    color: black;
+    height: 15em;
+}
+
+#precio{
+   
+    
+    float: left;
+    width: 40.90em;
+    background-color: midnightblue;
+    height: 3.15em;
+    font-family: underline;
+}
+
+#subcontexto{
+    float: left;
+    width: 27.28em;
+    height: 8.75em;
+    text-align: left;
+    font-size: 1.50em;
+    background: black;
+    position: relative;
+    font-family:underline;
+   opacity: 45%;
+}
+
+#subcontexto:hover{
+    background: white;
+    color:black;
+}
+
+#secundario {
+    float: left;
+    width: 100%;
+    background: #252850;
+    height: 45em;
+}
+
+#central_secundario{
+    position: relative;
+    width: 81em;
+    margin: 0 auto;
+}
+#segundo{
+    background-color: midnightblue;
+    height: 3em;
+    padding-top: 0.5em;
+    text-align: center;
+    color: transparent;
+    margin: auto;
+    font-size: 30px;
+    -webkit-text-stroke:1.5px white;
+}
+
+#segundo:hover{
+    background: black;
+}
+
+#imagenes_secundario{
+    float: right;
+    width: 40.10em;
+    height: 38.45em;
+    background: black;
+   
+    
+}
+
+#imagenes_secundario_dos img{
+    width: 40.10em;
+    height: 20.5em;
+    background: black;
+}
+
+#texto_secundario{
+    float: left;
+    width: 40.90em;
+    background:black;
+    text-align: center;
+    padding-top: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    height: 38.45em;
+    color:white;
+}
+
+#precio_secundario{
+    float: left;
+    width: 40.48em;
+    background-color: midnightblue;
+    height: 3.15em;
+    font-family: underline;
+}
+
+#tex_secundario{
+    float: left;
+    width: 26.89em;
+    height: 15.5em;
+    text-align: left;
+    font-size: 1.50em;
+    background: black;
+    position: relative;
+    font-family:underline;
+    opacity: 48%
+
+}
+
+#tex_secundario:hover{
+    background: white;
+    color:black;
+    height: 35em;
+}
+
+
+
+#terciario{
+    float: left;
+    width: 100%;
+    background: #252850;
+    height: 45em;
+}
+
+
+
+#central_terciario{
+    position: relative;
+    width: 81em;
+    margin: 0 auto;
+}
+
+#tercero{
+    background-color: midnightblue;
+    height: 3em;
+    padding-top: 0.5em;
+    text-align: center;
+    color: transparent;
+    margin: auto;
+    font-size: 30px;
+    -webkit-text-stroke:1.5px white;
+}
+
+
+#tercero:hover{
+    background: black;
+}
+
+
+#imagenes_tercero{
+    float: left;
+    width: 40.10em;
+    height: 38.45em;
+    background: black;
+}
+
+#imagenes_tercero_tres img{
+    width: 40.10em;
+    height: 20.5em;
+    background: black;
+}
+
+#texto_tercero{
+    float: right;
+    width: 40.90em;
+    background:black;
+    text-align: center;
+    padding-top: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    height: 38.45em;
+    color:white;
+}
+
+
+
+#precio_tercero{
+    float: left;
+    width: 40.90em;
+    background-color: midnightblue;
+    height: 3.15em;
+    font-family: underline;
+}
+
+#tex_tercero{
+    float: left;
+    width: 26.89em;
+    height: 15.5em;
+    text-align: left;
+    font-size: 1.50em;
+    background: black;
+    position: relative;
+    font-family:underline;
+    opacity: 48%
+
+}
+
+#tex_tercero:hover{
+    background: white;
+    color: black;
+    height: 30em;
+    width: 27.32em;
+}
+
+
+
+
+footer{
+    float: left;
+    width: 100%;
+    margin-top: 3em;
+    background: #222222;
+    height: 26em;
+}
+
+#final{
+
+    position: relative;
+    width: 81em;
+    margin: 0 auto;
+    
+}
+
+#masinfo{
+    background-color: black;
+    height: 3em;
+    padding-top: 0.5em;
+    text-align: center;
+    color: transparent;
+    margin: auto;
+    font-size: 25px;
+    -webkit-text-stroke:0.5px white;
+}
+
+#final_imagenes{
+    
+    
+    position: relative;
+    width: 81em;
+    margin: 0 auto;
+    height: 1.7em;
+    text-align: center;
+}
+
+#imagenes_final img{
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 19.70em;
+
+}
+
+#finalsub{
+    position: relative;
+    width: 81em;
+    margin: 0 auto;
+    padding-top: 205px;
+}
+
+#masinfosub{
+    background-color: black;
+    height: 3em;
+    padding-top: 0.5em;
+    text-align: center;
+    color: transparent;
+    margin: auto;
+    font-size: 25px;
+    -webkit-text-stroke:0.5px white;
+}
+
+
+
+

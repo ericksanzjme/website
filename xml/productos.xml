@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="productos.xsl"?>
+<contenedor
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="../xsd/productos.xsd">
+    <portada>
+        <imagen>../imagenes/portada/imagen1.png</imagen>
+        <altportada>portada</altportada>
+        <titulo>CocheS20PVT</titulo>
+    </portada>
+    <enlaces>
+        <inicio>Inicio</inicio>
+        <mas>mas modelos</mas>
+    </enlaces>
+    <central>
+        <primario>
+            <titulo>SF90Stradale</titulo>
+            <imagen>../imagenes/central/primario.png</imagen>
+            <altprimario>primario</altprimario>
+            <texto> El nombre del automóvil sintetiza el verdadero significado de todo lo que se ha logrado en términos de prestaciones. 
+                    La referencia al 90 aniversario de la creación de la Scuderia Ferrari subraya el fuerte vínculo que siempre ha existido entre circuito y carretera en todos los Ferrari. 
+                    Además de toda una brillante apuesta por las tecnologías más avanzadas desarrolladas en Maranello, el SF90 Stradale  es también la demostración perfecta de cómo Ferrari traslada inmediatamente a todos sus coches el conocimiento y las habilidades que adquiere en la competición.
+                    
+            </texto>
+            <subtexto>Es el primer Ferrari con arquitectura PHEV (vehículo eléctrico híbrido enchufable) que ve su motor de combustión interno integrado con tres motores eléctricos, 
+                      dos de los cuales son independientes y están ubicados en el eje delantero, con el tercero en la parte trasera, entre el motor y la caja de cambios.</subtexto>
+            <precio>500000</precio>
+        </primario>
+        <secundario>
+            <titulo>F8Spider</titulo>
+            <imagen>../imagenes/central/secundario.png</imagen>
+            <altsecundario>secundario</altsecundario>
+            <texto> Este Spider es capaz de entregar los 720 caballos instantáneamente, sin turbo lag y manteniendo la "banda sonora" inigualable definida por el sonido tan característico de este motor V8.
+                    Para lograr el objetivo de usabilidad del rendimiento, los ingenieros de Ferrari trabajaron en la integración del rendimiento del motor y la aerodinámica con la última evolución de los sistemas de control.
+                    El interior del F8 Spider mantiene el clásico estilo de "cabina", característico del motor central trasero de 8 cilindros. Un concepto que converge en una simbiosis perfecta entre el compartimento del conductor y el de pasajero
+            </texto>
+            <precio>44.000000</precio>
+        </secundario>
+        <tercero>
+            <titulo>Potofino</titulo>
+            <imagen>../imagenes/central/tercero.png</imagen>
+            <alttercero>tercero</alttercero>
+            <texto>
+                El Ferrari Portofino, el nuevo Gran Turismo V8 del Cavallino Rampante, está destinado a dominar su segmento gracias a una combinación de prestaciones puras, versatilidad, diversión en su conducción y confort a bordo único. 
+                Con sus 600 cv y aceleración de 0 a 200 km/h en tan solo 10,8 segundos, el Ferrari Portofino es, de hecho, el más potente convertible en ofrecer simultáneamente un techo rígido retráctil, un amplio maletero y una gran habitabilidad con dos asientos traseros de utilización en trayectos cortos.
+                El nuevo vehículo toma su nombre de una de las más bellas localidades de la costa Ligure, desde siempre sinónimo de exclusividad y elegancia, y es el modelo más versatil de la gama. 
+                Un Ferrari de uso diario y que apenas sin esfuerzo se transforma de un auténtico coupe “berlinetta” a un descapotable con su inigualable sonido único y su excepcional placer de conducción.
+            </texto>
+            <precio>24.60000</precio>
+        </tercero>
+    </central>
+    <final>
+        <propaganda>
+            <titulo>Propaganda Comercial </titulo>
+            <contexto>Con la colaboracion de </contexto>
+            <imagen>../imagenes/fin/propaganda1.png</imagen>
+            <altpropaganda>Propaganda</altpropaganda>
+        </propaganda>
+    </final>
+</contenedor>

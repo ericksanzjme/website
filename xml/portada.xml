@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="portada.xsl"?>
+<contenedor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="../xsd/portada.xsd">
+    <portada>
+        <imagen>../imagenes/portada/imagen1.png</imagen>
+        <altportada>portada</altportada>
+        <titulo>CocheS20PVT</titulo>
+    </portada>
+    <enlaces>
+        <inicio>Inicio</inicio>
+        <Coches>Autos</Coches>
+        <Soporte>Soporte</Soporte>
+        <Mas>Mas</Mas>
+    </enlaces>
+    <central>
+        <titulo>Series especiales ilimitadas</titulo>
+        <imagen>../imagenes/central/imagen1.png</imagen>
+        <altcentral>central</altcentral>
+        <texto>Los nuevos Ferrari Monza SP1 y SP2 nacen de un nuevo concepto,
+            denominado ‘Icona’, que conecta con el pasado a través del hilo conductor de los vehículos más evocadores de la propia historia. 
+            Crea un nuevo segmento de series especiales limitadas desarrollado para clientes y coleccionistas Ferrari.</texto>
+        <precio>35.000000</precio>
+    </central>
+    <final>
+        <masinfo>
+            <titulo>Descubre el ferrari Portofino</titulo>
+            <imagen>../imagenes/fin/imagen1.png</imagen>
+            <altfinal>final</altfinal>
+            <texto>solicitar mas informacion </texto>
+            <contexto>¡Consigue el coche de tus sueños, el mercado de automóviles online más grande de Europa! </contexto>
+            <enlace>Mas productos</enlace>
+            <telefono>
+                <contexto>Donde contactarnos</contexto>
+                <numero>657070592</numero>
+                <gmail>Coches@gmail.com</gmail>
+            </telefono>
+        </masinfo>
+    </final>
+</contenedor>
